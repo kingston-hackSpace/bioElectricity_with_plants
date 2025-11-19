@@ -2,14 +2,13 @@
 
 In this tutorial, we will attempt to monitor the internal electrical activity in a plant.
 
-Electrical activity in plants flow through their tissues, creating voltage differences across their membrains. This signals are sutle and slow.
+Plants naturally move ions (charged particles) through their tissues, and this creates small voltage changes across their cell membranes. These signals tend to shift gradually over time, producing slow drifts with the occasional spike. 
 
-Plants produce slow drifts of electrical activity with occassional spikes. By slow, we mean that plants do not present "fast" electrical reactions. 
+*note*: “Slow electrical signals” in this context means that plant electrical responses usually unfold over seconds or minutes rather than instantly.
 
+*note:* Reading bio-electrical activity could be more difficult in some plants more than others. Thick, waxy, shiny, very smooth, or very hairy leaves can reduce conductivity or prevent good electrode adhesion.
 
-*note:* Some plants may block electrical readings. It is suggeted to avoid plants with leaves that are thick (blocks conductivity), shinny/smooth or hairy (blocks adhesions and resists electrical contact)
-
-*note:* Environmental electrical noise can interfere with our readings. More info below. 
+*note:* Environmental electrical noise (from mains power, static, nearby electronics, or loose wires) can affect the readings. More information is provided below.
 
 ---
 
@@ -59,7 +58,7 @@ TUTORIALS
 HARDWARE
 -
 - Arduino UNO
-- HX711 Load Cell Amplifier
+- HX711 Load Cell Amplifier Module
 - HC06 Bluetooth Module
 - RGB LED (common anode)
 - 220ohms resistor (x3)
