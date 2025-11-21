@@ -48,29 +48,36 @@ In this project, we try to reduce unwanted noise through both hardware and softw
 REDUCING NOISE: TIPS
 -
 
-- Use a power-bank to power your Arduino Board. Once you upload the code to the Arduino Board, avoid keeping the board connected to the computer as it fill add electromacnetic field interference to your sensing device. To be able to keep monitoring the data, we will send the data from the Arduino to an Android Smartphone via Bluetooth.  
+- Use a power-bank to power your Arduino Board. Once you upload the code to the Arduino Board, avoid keeping the board connected to the computer as it will add electrical interference to your sensings. To make the incomming data visible, but disconned from our computers, we will send the data from the Arduino to an Android Smartphone via Bluetooth.  
 
-- Short - shield wires help to reduce electromagnetic noise. 
+- Use short wires to reduce acturing electrical noise. 
 
-- At least 2 wire connections will be needed. One of them should go to the soil of the plant to reduce environmental soil from the surrounding electrical fields. because the soil is large and conductive, it can stabilize our readings. 
+- Use shield wires to help reduce acturing electrical noise. 
 
-- Moistured soil (not dumped) helps conduct electricity
+- Our HX777 Load-Cell amplifier requires at two input terminals (A+ and A-). A+ should be connected to a plant leave, while A- should be connected to the plant's noise. Grounding our connections will reduce environmental noise from the surrounding electrical fields. This is because the soil is large and conductive, ...
 
-- We treat the HX711 output as a high-resolution raw signal (counts), then baseline and filter it in software to produce the representative values used for visualisation.
+- Moistured soil (not dumped) helps conduct electricity.
 
 
 - 
 
-TUTORIALS
+TUTORIALS: SETTING UP BEFORE STARTING
 - 
-- RGB LED (common anode)
-- HC06 Bluetooth Module
-- HX711 Cell Load Amplifier
+Follow these tutorials **before** trying moving towards the plant project. They will guide you set up everything you need before setting up our plant-project. Complete them in the order provided:
 
+ 1. RGB LED (common anode)
+ 2. HC06 Bluetooth Module
+ 3. HX711 Cell Load Amplifier
+
+--
+
+TUTORIAL : 
+Monitoring bioElectricity in plants
+-----------------------------------
 HARDWARE
 -
 - Arduino UNO
-- HX711 Load Cell Amplifier Module
+- HX711 Load-Cell Amplifier Module
 - HC06 Bluetooth Module
 - RGB LED (common anode)
 - 220ohms resistor (x3)
@@ -78,13 +85,18 @@ HARDWARE
 - 1K resistor
 - 5V Power Bank
 - Android Smartphone
+- Electrodes 
   
 ELECTRODES
 - 
+Electrodes are: 
 
-The plants outer surface - its epidermis or "skin"- has cell membranes that hold electrical activity. A plant, as us - humans- present an "electrically active outer layer". For this reason, our electrodes can be stick to the plant leaves. Avoid perforating through them, as you can cause them stress. 
+The plant's outer surface (its epidermis or "skin") has cell membranes that hold electrical activity. A plant, as us - humans- present an "electrically active outer layer". For this reason, our electrodes can be stick to the plant leaves to sense the electrical activity. Avoid perforating through them, as you can cause them stress. 
 
-For good contact points use slightly damp connections such as wet-get electrodes. You can also make yourown electrodes using stainless steel, which has good conductivity, and avoids metal corrossion. Don't use copper (corrosive).
+TIPS:
+- For good contact points use slightly damp connections such as wet-get electrodes.
+- You can also make your own electrodes using stainless steel, which has good conductivity, and avoids metal corrossion.
+- Don't use copper (corrosive).
 
 WIRING
 -
@@ -113,6 +125,29 @@ What kind of data do you get when:
 - electrodes are connected to two different leaves
 - one electrode is connected to a leave, the other one to the soil
 - move the leaves or soil using a wood stick (mechanical stimulation)
+
+FURTHER READING
+-
+
+**A) FUTHER READING : TUTORIALS**
+
+PLANTOID PROJECT: http://borsaci06.com/plantoid_project.htm 
+
+
+
+
+**B) FURTHER READING : RESEARCH**
+
+**C) FURTHER READING : MARKET PROJECTS**
+
+PLANT MUSIC :https://www.plantmusic.com.au/about
+
+https://www.youtube.com/watch?v=3bfQCFWsG4k 
+
+PLANTS PLAY : https://plantsplay.com/
+
+MUSIC OF THE PLANTS : https://leseli.africa/plantmusic/
+
 
 
 
