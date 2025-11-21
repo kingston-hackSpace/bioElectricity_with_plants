@@ -115,7 +115,10 @@ AMPLIFIER (-) --- PLANT SOIL
 
 CODE
 -
-Library: HX711
+
+DOWNLOAD Arduino Code here : https://github.com/kingston-hackSpace/bioElectricity_with_plants/blob/main/ElectricPlant_Test.ino
+
+Libraries requied: HX711.h
 
 Understanding Data Readings
 -
