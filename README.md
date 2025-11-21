@@ -16,19 +16,23 @@ Plants naturally move ions (charged particles) through their tissues, and this c
 AMPLIFING PLANT ELECTRICAL SIGNALS
 - 
 
-Plant electrical activity may go between micro and milliVolts, which is a very small signal. We need an amplier device that can sense those signals and feed the arduino with a representative data. 
+Plant electrical activity is small and subtle, usually in the microvolt (µV) to low-millivolt (mV) range. To sense and observe it, we need a voltage-amplifying device that also performs analogue-to-digital conversion (ADC). In other words, this device boosts the plant’s tiny signals and converts them into numerical values that the Arduino can read.
 
-For this experiment, we will use the HX711 Load Cell Amplifier.  
+For this experiment, we will use the HX711 Load-Cell Amplifier.  
+
+
 
 HX711 LOAD CELL AMPLIFIER
 -
-This device is designed to sense millivolts and add high gain differential amplification. This makes it very sensitive, and it can pick external electrical influences that may interfere with our plant readings. 
 
-The HX711 has 2 connections points: A+ and A-. The device measures the voltage between this two points. 
+The HX711 load-cell amplifier is an cheap, high-resolution 24-bit ADC with selectable gain. It is designed to measure very small millivolt-level signals using high-gain differential amplification. Although it was not created specifically for biological measurements, it is a practical choice for this experiment because it offers high sensitivity and is easy to interface with an Arduino. Its sensitivity, however, also means it can easily pick up external electrical noise, which may interfere with the plant readings. Furtheer in this tutorial, we will learn how to reduce environmental electrical noise. 
 
-Usual device gain: x128, x64, x32.
 
-*note*: The HX711 -designed to pick up tiny voltages -  won't distinguish between the plant's electricl signals and the environment's. Unfortunatelly, there will be electrical noise in our readings, so we need to try to reduce it in hardware and software to get reliable plpant data. Please keep in mind that cancelling external noise for pure plant activity signals can be very difficult. 
+HOW IT WORKS:
+- The HX711 has two input terminals: A+ and A-. The chip measures the voltage difference between these two points (a differential input).
+
+- It supports different gain levels: ×32, ×64, and ×128, allowing it to amplify very small signals.
+
 
 ELECTROMAGNETIC FIELDS
 - 
@@ -48,6 +52,10 @@ Our HX711 Amplifier is trying to sense very small electrical signals, for this r
 - At least 2 wire connections will be needed. One of them should go to the soil of the plant to reduce environmental soil from the surrounding electrical fields. because the soil is large and conductive, it can stabilize our readings. 
 
 - Moistured soil (not dumped) helps conduct electricity
+
+- We treat the HX711 output as a high-resolution raw signal (counts), then baseline and filter it in software to produce the representative values used for visualisation.
+
+- *note*: The HX711 won't distinguish between the plant's electricl signals and the environment's. Unfortunatelly, there will be electrical noise in our readings, so we need to try to reduce it in hardware and software to get reliable plpant data. Please keep in mind that cancelling external noise for pure plant activity signals can be very difficult. 
 - 
 
 TUTORIALS
