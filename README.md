@@ -67,7 +67,6 @@ Follow these tutorials **before** trying moving towards the plant project. They 
 
  1. RGB LED (common anode)
  2. HC06 Bluetooth Module
- 3. HX711 Cell Load Amplifier
 
 -----------------------------------
 TUTORIAL : 
