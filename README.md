@@ -1,14 +1,13 @@
 # bioElectricity_with_plants (Work-In-Progress)
 
 In this tutorial, we will attempt to monitor the internal electrical activity in a plant. 
-
 The accuracy of the findings, and forms of data visualization are still in work-in-progress. 
 
-Plants naturally move ions (charged particles) through their tissues, and this creates small voltage changes across their cell membranes. These signals tend to shift gradually over time, producing slow drifts with the occasional spike. 
+Plants naturally move ions (charged particles) through their tissues, and this creates small voltage changes across their cell membranes. These signals tend to shift gradually over time, producing slow drifts with the occasional spike. In this tutorial, our aim is to sense and observe this naturally occurring electrical activity.
 
-*note*: “Slow electrical signals” in this context means that plant electrical responses usually unfold over seconds or minutes rather than instantly.
+*note*: Plant electrical signals are “slow”, meaning they usually change over the course of seconds or minutes rather than instantly.
 
-*note:* Reading bio-electrical activity could be more difficult in some plants more than others. Thick, waxy, shiny, very smooth, or very hairy leaves can reduce conductivity or prevent good electrode adhesion.
+*note:* Some plants are more challenging to measure than others. Leaves that are thick, waxy, shiny, very smooth, or very hairy may reduce conductivity or make it difficult for electrodes to adhere properly. Plants with softer, matte, slightly moist, or gently textured leaves—such as pothos, peace lilies, or philodendrons—tend to provide better contact.
 
 *note:* Environmental electrical noise (from mains power, static, nearby electronics, or loose wires) can affect the readings. More information is provided below.
 
