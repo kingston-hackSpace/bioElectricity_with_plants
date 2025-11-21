@@ -22,7 +22,7 @@ For this experiment, we will use the HX711 Load-Cell Amplifier.
 
 
 
-HX711 LOAD CELL AMPLIFIER
+HX711 LOAD-CELL AMPLIFIER
 -
 
 The HX711 load-cell amplifier is an cheap, high-resolution 24-bit ADC with selectable gain. It is designed to measure very small millivolt-level signals using high-gain differential amplification. Although it was not created specifically for biological measurements, it is a practical choice for this experiment because it offers high sensitivity and is easy to interface with an Arduino. Its sensitivity, however, also means it can easily pick up external electrical noise, which may interfere with the plant readings. Furtheer in this tutorial, we will learn how to reduce environmental electrical noise. 
@@ -34,18 +34,21 @@ HOW IT WORKS:
 - It supports different gain levels: ×32, ×64, and ×128, allowing it to amplify very small signals.
 
 
-ELECTROMAGNETIC FIELDS
-- 
-Every charged object -a wire, a wall socket, our  bodies, even the air- creates electrical fields. 
+ELECTRICAL NOISE
+-
 
-An electrical field is the space around something where its charge can influence other charges. 
+Our surroundings are full of electrical activity. Mains wiring, chargers, electronic devices, fluorescent lights, Wi-Fi routers, and even our own bodies all generate electric fields. An electric field is simply the region around a charged object where it can influence other charges.
+
+Because the HX711 is designed to detect extremely small voltages, it cannot easily tell the difference between the plant’s bio-electrical signals and electrical noise from the environment. As a result, some noise will inevitably appear in our readings.
+
+In this project, we try to reduce unwanted noise through both hardware and software. However, completely eliminating environmental interference is very difficult, and in practice we aim for readings that are representative rather than perfectly “pure” plant signals.
+
 
 
 REDUCING NOISE: TIPS
 -
-Our HX711 Amplifier is trying to sense very small electrical signals, for this reason, we need to reduce any electrical noise that might interfere with our plant electrical sensing. 
 
-- Use a power bank to power your Arduino Board. Once you upload the code to the Arduino Board, avoid keeping the board connected to the computer as it fill add electromacnetic field interference to your sensing device. To be able to keep monitoring the data, we will send the data from the Arduino to an Android Smartphone via Bluetooth.  
+- Use a power-bank to power your Arduino Board. Once you upload the code to the Arduino Board, avoid keeping the board connected to the computer as it fill add electromacnetic field interference to your sensing device. To be able to keep monitoring the data, we will send the data from the Arduino to an Android Smartphone via Bluetooth.  
 
 - Short - shield wires help to reduce electromagnetic noise. 
 
@@ -55,7 +58,7 @@ Our HX711 Amplifier is trying to sense very small electrical signals, for this r
 
 - We treat the HX711 output as a high-resolution raw signal (counts), then baseline and filter it in software to produce the representative values used for visualisation.
 
-- *note*: The HX711 won't distinguish between the plant's electricl signals and the environment's. Unfortunatelly, there will be electrical noise in our readings, so we need to try to reduce it in hardware and software to get reliable plpant data. Please keep in mind that cancelling external noise for pure plant activity signals can be very difficult. 
+
 - 
 
 TUTORIALS
