@@ -45,18 +45,20 @@ In this project, we try to reduce unwanted noise through both hardware and softw
 
 
 
+
 REDUCING NOISE: TIPS
 -
 
-- Use a power-bank to power your Arduino Board. Once you upload the code to the Arduino Board, avoid keeping the board connected to the computer as it will add electrical interference to your sensings. To make the incomming data visible, but disconned from our computers, we will send the data from the Arduino to an Android Smartphone via Bluetooth.  
+- Use a power-bank to power your Arduino Board. Once you upload the code to the Arduino Board, avoid keeping the board connected to the computer, as it will add electrical interference to your sensings. To visualize the incoming data without a computer, we will send the data from the Arduino to an Android Smartphone via Bluetooth.
 
-- Use short wires to reduce acturing electrical noise. 
+- Use short wires whenever possible, as longer wires can act like antennas and pick up environmental electrical noise.
 
-- Use shield wires to help reduce acturing electrical noise. 
+- Use shielded wires for signal connections to further reduce interference.
 
-- Our HX777 Load-Cell amplifier requires at two input terminals (A+ and A-). A+ should be connected to a plant leave, while A- should be connected to the plant's noise. Grounding our connections will reduce environmental noise from the surrounding electrical fields. This is because the soil is large and conductive, ...
+- Our HX777 Load-Cell amplifier requires two input terminals (A+ and A-). Connect A+ to any leaf, while A- should be connected to the plant's soil (reference point). Grounding our connections will reduce environmental noise from the surrounding electrical fields, as the soil acts as a large conductive plane.
+    *Note: You could connect A- to another leaf, but you may capture higher environmental noise.*
 
-- Moistured soil (not dumped) helps conduct electricity.
+- Moistured soil (not dumped) improves conductivity.
 
 
 - 
@@ -89,7 +91,7 @@ ELECTRODES
 - 
 Electrodes are: 
 
-The plant's outer surface (its epidermis or "skin") has cell membranes that hold electrical activity. A plant, as us - humans- present an "electrically active outer layer". For this reason, our electrodes can be stick to the plant leaves to sense the electrical activity. Avoid perforating through them, as you can cause them stress. 
+The plant's outer surface (its epidermis or "skin") has cell membranes that hold electrical activity. For this reason, our electrodes can be stick to the plant leaves to sense the electrical activity. Avoid perforating through them, as you can cause them stress. 
 
 TIPS:
 - For good contact points use slightly damp connections such as wet-get electrodes.
