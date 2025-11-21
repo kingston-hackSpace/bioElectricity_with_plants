@@ -69,8 +69,7 @@ Follow these tutorials **before** trying moving towards the plant project. They 
  2. HC06 Bluetooth Module
  3. HX711 Cell Load Amplifier
 
---
-
+-----------------------------------
 TUTORIAL : 
 Monitoring bioElectricity in plants
 -----------------------------------
@@ -112,6 +111,8 @@ AMPLIFIER CLK --- ARDUINO PIN 5
 AMPLIFIER (+) --- PLANT LEAVE
 
 AMPLIFIER (-) --- PLANT SOIL
+
+See wiring reference image : https://github.com/kingston-hackSpace/bioElectricity_with_plants/blob/main/Diagram_bb.jpg
 
 CODE
 -
