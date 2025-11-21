@@ -65,8 +65,8 @@ TUTORIALS: SETTING UP BEFORE STARTING
 - 
 Follow these tutorials **before** trying moving towards the plant project. They will guide you set up everything you need before setting up our plant-project. Complete them in the order provided:
 
- 1. RGB LED (common anode)
- 2. HC06 Bluetooth Module
+ 1. RGB LED (common anode) : https://github.com/kingston-hackSpace/RGB_LED 
+ 2. HC06 Bluetooth Module : https://github.com/kingston-hackSpace/HC06_Bluetooth_Module 
 
 -----------------------------------
 TUTORIAL : 
