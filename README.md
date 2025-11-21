@@ -147,8 +147,6 @@ PLANTOID PROJECT: http://borsaci06.com/plantoid_project.htm
 
 PLANT MUSIC :https://www.plantmusic.com.au/about
 
-https://www.youtube.com/watch?v=3bfQCFWsG4k 
-
 PLANTS PLAY : https://plantsplay.com/
 
 MUSIC OF THE PLANTS : https://leseli.africa/plantmusic/
