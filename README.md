@@ -1,6 +1,6 @@
 # bioElectricity_with_plants (Work-In-Progress)
 
-In this tutorial, we will attempt to monitor the internal electrical activity in a plant.
+In this tutorial, we will attempt to monitor the internal electrical activity in a plant. The accuracy and visualization of the findings is in work-in-progress. 
 
 Plants naturally move ions (charged particles) through their tissues, and this creates small voltage changes across their cell membranes. These signals tend to shift gradually over time, producing slow drifts with the occasional spike. 
 
