@@ -5,11 +5,11 @@ The accuracy of the findings, and forms of data visualization are still in work-
 
 Plants naturally move ions (charged particles) through their tissues, and this creates small voltage changes across their cell membranes. These signals tend to shift gradually over time, producing slow drifts with the occasional spike. In this tutorial, our aim is to sense and observe this naturally occurring electrical activity.
 
-*note*: Plant electrical signals are “slow”, meaning they usually change over the course of seconds or minutes rather than instantly.
+**note:** *Plant electrical signals are “slow”, meaning they usually change over the course of seconds or minutes rather than instantly.*
 
-*note:* Some plants are more challenging to measure than others. Leaves that are thick, waxy, shiny, very smooth, or very hairy may reduce conductivity or make it difficult for electrodes to adhere properly. Plants with softer, matte, slightly moist, or gently textured leaves—such as pothos, peace lilies, or philodendrons—tend to provide better contact.
+**note:** *Some plants are more challenging to measure than others. Leaves that are thick, waxy, shiny, very smooth, or very hairy may reduce conductivity or make it difficult for electrodes to adhere properly. Plants with softer, matte, slightly moist, or gently textured leaves—such as pothos, peace lilies, or philodendrons—tend to provide better contact.*
 
-*note:* Environmental electrical noise (from mains power, static, nearby electronics, or loose wires) can affect the readings. More information is provided below.
+**note:** *Environmental electrical noise (from mains power, static, nearby electronics, or loose wires) can affect the readings. More information is provided below.*
 
 ---
 
