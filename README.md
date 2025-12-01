@@ -71,8 +71,7 @@ Follow these tutorials **before** trying moving towards the plant project. They 
  2. [HC06 Bluetooth Module](https://github.com/kingston-hackSpace/HC06_Bluetooth_Module) 
 
 -----------------------------------
-TUTORIAL : 
-Monitoring bioElectricity in plants
+# TUTORIAL : Monitoring bioElectricity in plants
 -----------------------------------
 HARDWARE
 -
