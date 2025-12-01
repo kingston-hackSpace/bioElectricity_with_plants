@@ -63,7 +63,7 @@ REDUCING NOISE: TIPS
 
 - 
 
-TUTORIALS: SETTING UP BEFORE STARTING
+SETTING UP BEFORE STARTING
 - 
 Follow these tutorials **before** trying moving towards the plant project. They will guide you set up everything you need before setting up our plant-project. Complete them in the order provided:
 
