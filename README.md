@@ -67,8 +67,8 @@ TUTORIALS: SETTING UP BEFORE STARTING
 - 
 Follow these tutorials **before** trying moving towards the plant project. They will guide you set up everything you need before setting up our plant-project. Complete them in the order provided:
 
- 1. RGB LED (common anode) : https://github.com/kingston-hackSpace/RGB_LED 
- 2. HC06 Bluetooth Module : https://github.com/kingston-hackSpace/HC06_Bluetooth_Module 
+ 1. [RGB LED (common anode)](https://github.com/kingston-hackSpace/RGB_LED) 
+ 2. [HC06 Bluetooth Module](https://github.com/kingston-hackSpace/HC06_Bluetooth_Module) 
 
 -----------------------------------
 TUTORIAL : 
@@ -113,12 +113,12 @@ AMPLIFIER (+) --- PLANT LEAVE
 
 AMPLIFIER (-) --- PLANT SOIL
 
-See wiring reference image : https://github.com/kingston-hackSpace/bioElectricity_with_plants/blob/main/Diagram_bb.jpg
+See wiring reference image [here](https://github.com/kingston-hackSpace/bioElectricity_with_plants/blob/main/Diagram_bb.jpg)
 
 CODE
 -
 
-DOWNLOAD Arduino Code here : https://github.com/kingston-hackSpace/bioElectricity_with_plants/blob/main/ElectricPlant_Test.ino
+DOWNLOAD Arduino Code [here](https://github.com/kingston-hackSpace/bioElectricity_with_plants/blob/main/ElectricPlant_Test.ino)
 
 Libraries requied: HX711.h
 
